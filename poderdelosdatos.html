@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Poder de los Datos | Julio César Agapito</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .text-powerbi { color: #F2C811; }
+        .bg-powerbi { background-color: #F2C811; }
+        .border-powerbi { border-color: #F2C811; }
+        .hover-bg-powerbi:hover { background-color: #dcb30e; }
+        
+        .bg-hero {
+            background-image: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.95)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+
+    <!-- Navegación -->
+    <nav class="bg-gray-900 shadow-md p-4 fixed w-full z-50 top-0 border-b-2 border-powerbi">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
+                <i class="fas fa-chart-bar text-powerbi"></i>
+                El Poder de los <span class="text-powerbi">Datos</span>
+            </h1>
+            <ul class="hidden md:flex space-x-6 text-gray-300 font-medium items-center">
+                <li><a href="#" class="hover:text-powerbi transition">Inicio</a></li>
+                <li><a href="#servicios" class="hover:text-powerbi transition">Soluciones</a></li>
+                <li><a href="#perfil" class="hover:text-powerbi transition">Consultor</a></li>
+            </ul>
+            <a href="https://wa.me/51999999999" target="_blank" class="bg-powerbi text-gray-900 px-6 py-2 rounded font-bold hover-bg-powerbi transition shadow-md flex items-center gap-2">
+                <i class="fas fa-bolt"></i> Transformar mi empresa
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-hero h-screen flex flex-col items-center justify-center text-center mt-10 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="inline-block bg-gray-800 border border-powerbi text-powerbi px-4 py-1 rounded-full text-sm font-bold tracking-widest uppercase mb-6 shadow-lg">
+                Decisiones Estratégicas
+            </div>
+            
+            <h2 class="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+                Decisiones basadas en el poder de los datos con <span class="text-powerbi">Power BI</span>
+            </h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light">
+                Transformamos tu contabilidad tradicional y tu data operativa en dashboards interactivos para que visualices el futuro de tu negocio en tiempo real.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#servicios" class="bg-powerbi text-gray-900 text-lg px-8 py-4 rounded font-bold hover-bg-powerbi transition shadow-lg flex items-center justify-center gap-2">
+                    Ver Soluciones <i class="fas fa-chart-pie"></i>
+                </a>
+                <a href="#perfil" class="bg-transparent border-2 border-white text-white text-lg px-8 py-4 rounded font-bold hover:bg-white hover:text-gray-900 transition shadow-lg flex items-center justify-center gap-2">
+                    Conocer al Consultor
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Soluciones Integrales para tu Empresa</h3>
+                <div class="w-24 h-1 bg-powerbi mx-auto mb-4"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Unificamos la precisión contable con la inteligencia de negocios para brindarte una visión 360° de tu empresa.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-xl transition duration-300 border-t-4 border-gray-900">
+                    <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-calculator text-3xl text-gray-900"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-900">Contabilidad Estratégica</h4>
+                    <p class="text-gray-600 mb-4">Gestión contable y tributaria impecable. Aseguramos que los cimientos financieros de tu empresa en Perú sean sólidos y cumplan con toda la normativa.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> Estados Financieros</li>
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> Optimización Tributaria</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl transition duration-300 transform md:-translate-y-4 border-t-4 border-powerbi relative">
+                    <div class="absolute top-0 right-0 bg-powerbi text-gray-900 text-xs font-bold px-3 py-1 rounded-bl-lg uppercase">Core Service</div>
+                    <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-6 border border-powerbi">
+                        <i class="fas fa-chart-line text-3xl text-powerbi"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Consultoría en Power BI</h4>
+                    <p class="text-gray-300 mb-4">Diseñamos tableros de control (dashboards) automatizados. Conecta tus ventas, finanzas y operaciones en una sola pantalla interactiva.</p>
+                    <ul class="text-sm text-gray-400 space-y-2">
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> Dashboards Ejecutivos</li>
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> Modelado de Datos (DAX)</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-xl transition duration-300 border-t-4 border-gray-900">
+                    <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-3xl text-gray-900"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-900">Business Intelligence</h4>
+                    <p class="text-gray-600 mb-4">Pasamos de los datos históricos a la analítica predictiva. Te acompañamos en la lectura de la data para descubrir fugas de dinero y nuevas oportunidades.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> KPIs a medida</li>
+                        <li><i class="fas fa-check text-powerbi mr-2"></i> Asesoría en toma de decisiones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perfil del Consultor -->
+    <section id="perfil" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/3 bg-gray-900 flex items-center justify-center p-10 relative">
+                    <!-- Patrón de fondo sutil -->
+                    <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+                    <div class="relative z-10 text-center">
+                        <div class="w-40 h-40 mx-auto rounded-full border-4 border-powerbi overflow-hidden mb-4 bg-white flex items-center justify-center shadow-2xl">
+                            <!-- Placeholder para la foto de perfil -->
+                            <i class="fas fa-user-tie text-7xl text-gray-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-1">Julio César Agapito Gonzales</h3>
+                        <p class="text-powerbi font-medium mb-4">Contador y Consultor de Power BI</p>
+                        <div class="flex justify-center gap-3">
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-powerbi hover:text-gray-900 transition"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-10 md:p-14 flex flex-col justify-center">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">El valor de la experiencia dual</h3>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Con base en <strong>Perú</strong>, combino la rigurosidad analítica de la contabilidad con el poder tecnológico de Microsoft Power BI. Mi objetivo es traducir números complejos en historias visuales claras que los gerentes y directores puedan entender en segundos.
+                    </p>
+                    <p class="text-gray-600 mb-8 text-lg leading-relaxed">
+                        No solo te instalo un software; estructuro tu información financiera y operativa para que tu empresa deje de reaccionar ante los problemas y comience a anticiparlos mediante <strong>decisiones basadas en el poder de los datos</strong>.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 border-t border-gray-200 pt-8">
+                        <div>
+                            <p class="text-4xl font-black text-gray-900 mb-1">+500</p>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-bold">Contactos Profesionales</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-black text-gray-900 mb-1">100%</p>
+                            <p class="text-sm text-gray-500 uppercase tracking-wide font-bold">Enfoque en Resultados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Simple -->
+    <footer class="bg-gray-950 text-white py-10 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-4 flex items-center justify-center gap-2"><i class="fas fa-chart-bar text-powerbi"></i> El Poder de los Datos</h2>
+            <p class="text-gray-400 mb-6">Consultoría en Power BI y Contabilidad para empresas líderes.</p>
+            <p class="text-sm text-gray-600">© 2026 Julio César Agapito Gonzales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante WhatsApp (Izquierda) -->
+    <a href="#" class="fixed bottom-6 left-6 bg-green-500 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:bg-green-600 transition z-50 hover:scale-110">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Botón Flotante Asistente IA Lugeek (Derecha) -->
+    <div class="fixed bottom-6 right-6 flex flex-col items-end z-50">
+        <div class="bg-gray-900 px-4 py-3 rounded-lg shadow-2xl mb-3 text-sm font-medium text-white border-2 border-powerbi animate-bounce relative">
+            <div class="absolute -bottom-2 right-6 w-4 h-4 bg-gray-900 transform rotate-45 border-b-2 border-r-2 border-powerbi"></div>
+            👋 ¡Hola! Soy la IA de El Poder de los Datos.<br>¿Deseas implementar un dashboard o buscas contabilidad?
+        </div>
+        <button class="bg-powerbi text-gray-900 w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:bg-yellow-400 transition hover:scale-110 border-2 border-gray-900">
+            <i class="fas fa-robot text-3xl"></i>
+            <span class="absolute top-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
+        </button>
+    </div>
+
+</body>
+</html>
